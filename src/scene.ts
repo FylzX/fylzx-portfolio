@@ -156,8 +156,10 @@ export class GalleryScene {
     this.waveTime = performance.now() / 1000;
     this.targetAngle = 0;
     this.syncCells();
-    const photo = this.navigation.current;
-    if (photo) void this.boards.load(photo, true);
+    if (this.detailTarget) {
+      const photo = this.navigation.current;
+      if (photo) void this.boards.loadDetail(photo);
+    }
   }
   moveCollection(direction: number) {
     const next = this.navigation.lane + direction;

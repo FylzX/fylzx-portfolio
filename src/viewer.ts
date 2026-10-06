@@ -45,7 +45,7 @@ export class PhotoViewer {
     host.append(this.renderer.domElement);
     const model = this.boards.create(photo);
     this.scene.add(model);
-    void this.boards.load(photo, true);
+    void this.boards.loadDetail(photo);
     this.controls = new OrbitControls(this.goal, this.renderer.domElement);
     this.controls.minDistance = 5;
     this.controls.maxDistance = 24;

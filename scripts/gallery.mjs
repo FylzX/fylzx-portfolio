@@ -26,6 +26,45 @@ const fields = [
   "DateTimeOriginal",
   "OffsetTimeOriginal",
 ];
+const thumbnailWidths = [1400, 1300, 1200, 1100, 1000];
+const thumbnailMaxBytes = 500 * 1024;
+const thumbnailMinQuality = 80;
+const thumbnailMaxQuality = 90;
+
+async function encodeWebp(buffer, width, quality) {
+  return sharp(buffer)
+    .rotate()
+    .resize({
+      width,
+      height: width,
+      fit: "inside",
+      withoutEnlargement: true,
+    })
+    .webp({ quality, effort: 6, smartSubsample: true })
+    .toBuffer({ resolveWithObject: true });
+}
+
+async function encodeThumbnail(buffer) {
+  for (const width of thumbnailWidths) {
+    const best = await encodeWebp(buffer, width, thumbnailMaxQuality);
+    if (best.data.length <= thumbnailMaxBytes) return best;
+  }
+
+  let low = thumbnailMinQuality;
+  let high = thumbnailMaxQuality;
+  let selected = await encodeWebp(buffer, 1000, thumbnailMinQuality);
+  while (low <= high) {
+    const quality = Math.floor((low + high) / 2);
+    const candidate = await encodeWebp(buffer, 1000, quality);
+    if (candidate.data.length <= thumbnailMaxBytes) {
+      selected = candidate;
+      low = quality + 1;
+    } else high = quality - 1;
+  }
+  if (selected.data.length <= thumbnailMaxBytes) return selected;
+
+  throw new Error("Thumbnail exceeds 500KB at 1000px and quality 80; review this image instead of lowering quality.");
+}
 
 export function parsePhotoName(name) {
   const match = pattern.exec(name);
@@ -173,66 +212,37 @@ export async function buildGallery({
     } catch {
       /* Pictures without readable EXIF remain viewable. */
     }
-    const digest = createHash("sha256")
+    const thumbDigest = createHash("sha256")
       .update(buffer)
-      .update("portfolio-preview-v1")
+      .update("portfolio-webp-v3")
       .digest("hex")
       .slice(0, 16);
-    const preview = `${photo.id}.${digest}.webp`;
-    const thumb = `${photo.id}.${digest}.thumb.webp`;
-    keep.add(preview);
+    const thumb = `${photo.id}.${thumbDigest}.thumb.webp`;
     keep.add(thumb);
-    // Auto-orient before measuring/display. Public derivatives contain no embedded EXIF.
-    let large;
-    let cached;
+    // Auto-orient before measuring/display. The detail view uses the original file.
+    const sourceMetadata = await sharp(buffer).metadata();
+    const rotated = [5, 6, 7, 8].includes(sourceMetadata.orientation);
     try {
-      const previewMetadata = await sharp(
-        path.join(output, preview),
-      ).metadata();
-      const thumbMetadata = await sharp(path.join(output, thumb)).metadata();
-      if (
-        previewMetadata.width &&
-        previewMetadata.height &&
-        thumbMetadata.width
-      )
-        cached = previewMetadata;
-    } catch {
-      /* New or changed photos need derivatives. */
-    }
-    try {
-      if (cached) {
-        large = { info: cached };
-      } else {
-        large = await sharp(buffer)
-          .rotate()
-          .resize({
-            width: 2200,
-            height: 2200,
-            fit: "inside",
-            withoutEnlargement: true,
-          })
-          .webp({ quality: 90 })
-          .toBuffer({ resolveWithObject: true });
-        await writeFile(path.join(output, preview), large.data);
-        await sharp(large.data)
-          .resize({
-            width: 640,
-            height: 640,
-            fit: "inside",
-            withoutEnlargement: true,
-          })
-          .webp({ quality: 82 })
-          .toFile(path.join(output, thumb));
+      let thumbnailCached = false;
+      try {
+        const metadata = await sharp(path.join(output, thumb)).metadata();
+        thumbnailCached = Boolean(metadata.width && metadata.height);
+      } catch {
+        /* The thumbnail cache is independent of the detail image. */
       }
-    } catch {
-      throw new Error(`无法生成照片预览，请检查图像文件：${photo.filename}`);
+      if (!thumbnailCached) {
+        const thumbnail = await encodeThumbnail(buffer);
+        await writeFile(path.join(output, thumb), thumbnail.data);
+      }
+    } catch (cause) {
+      throw new Error(`无法生成照片预览，请检查图像文件：${photo.filename}`, { cause });
     }
     records.push({
       ...photo,
-      preview: `gallery/${preview}`,
+      preview: `photos/${photo.filename}`,
       thumbnail: `gallery/${thumb}`,
-      width: large.info.width,
-      height: large.info.height,
+      width: rotated ? sourceMetadata.height : sourceMetadata.width,
+      height: rotated ? sourceMetadata.width : sourceMetadata.height,
       exif: exifInfo(tags),
       description,
     });

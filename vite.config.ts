@@ -2,6 +2,9 @@ import { defineConfig } from "vite";
 // @ts-ignore — Node-only photo pipeline.
 import { buildGallery } from "./scripts/gallery.mjs";
 import path from "node:path";
+import { copyFile, mkdir } from "node:fs/promises";
+
+let originals: string[] = [];
 
 export default defineConfig({
   base: "./",
@@ -19,7 +22,14 @@ export default defineConfig({
     {
       name: "photography-collection",
       async buildStart() {
-        await buildGallery();
+        const gallery = await buildGallery();
+        originals = gallery.photos.map((photo: { filename: string }) => photo.filename);
+      },
+      async writeBundle(options) {
+        const directory = path.resolve(options.dir ?? "dist", "photos");
+        await mkdir(directory, { recursive: true });
+        for (const filename of originals)
+          await copyFile(path.resolve("photos", filename), path.join(directory, filename));
       },
       configureServer(server) {
         const directory = path.resolve("photos");

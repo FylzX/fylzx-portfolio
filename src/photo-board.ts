@@ -27,14 +27,28 @@ export class PhotoBoards {
   anisotropy = 4;
   onError?: (photo: Photo) => void;
 
-  async load(photo: Photo, high = false) {
+  loadThumbnail(photo: Photo) {
+    if (!photo.thumbnail) return this.loadDetail(photo);
+    return this.load(photo, false);
+  }
+  loadDetail(photo: Photo): Promise<void> {
+    return this.load(photo, true);
+  }
+  private async load(photo: Photo, high: boolean): Promise<void> {
     const key = `${photo.id}:${high}`;
     if (this.loaded.has(key)) return this.loaded.get(key);
     const promise = (async () => {
       try {
-        const texture = await this.loader.loadAsync(
-          import.meta.env.BASE_URL + (high ? photo.preview : photo.thumbnail),
-        );
+        let texture: THREE.Texture;
+        try {
+          texture = await this.loader.loadAsync(
+            import.meta.env.BASE_URL + (high ? photo.preview : photo.thumbnail!),
+          );
+        } catch (error) {
+          if (high || this.disposed) throw error;
+          // Missing thumbnails are the only overview path to an original.
+          return await this.loadDetail(photo);
+        }
         if (this.disposed || (!high && this.highResolution.has(photo.id))) {
           texture.dispose();
           return;
@@ -78,7 +92,7 @@ export class PhotoBoards {
     picture.scale.set(photo.width * scale, photo.height * scale, 1);
     picture.position.z = 0.065;
     group.add(glass, board, picture);
-    void this.load(photo);
+    void this.loadThumbnail(photo);
     return group;
   }
   theme(dark: boolean) {

@@ -7,7 +7,7 @@ export interface Photo {
   collection: string;
   sequence: number;
   preview: string;
-  thumbnail: string;
+  thumbnail?: string;
   width: number;
   height: number;
   exif: { label: string; value: string }[];

@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { mkdir, writeFile, mkdtemp, readdir } from "node:fs/promises";
+import { mkdir, writeFile, mkdtemp, readdir, stat } from "node:fs/promises";
 import path from "node:path";
 import sharp from "sharp";
 import exifr from "exifr";
@@ -98,10 +98,38 @@ test("pipeline handles rotation, PNG/WebP, paired descriptions, configured colle
     ),
   );
   const metadata = await sharp(
-    path.join(output, path.basename(photo.preview)),
+    path.join(output, path.basename(photo.thumbnail)),
   ).metadata();
   assert.equal(metadata.exif, undefined);
-  assert.equal((await readdir(output)).length, 7);
+  assert.equal(photo.preview, "photos/2026-01-01.jpg");
+  assert.equal((await readdir(output)).length, 4);
   await writeFile(path.join(input, "2026-01-01.json"), "{broken");
   await assert.rejects(buildGallery({ input, output }), /JSON 无效/);
+});
+
+test("details reference originals and old generated main images are removed", async () => {
+  await mkdir(".test-output", { recursive: true });
+  const temp = await mkdtemp(path.resolve(".test-output/full-resolution-"));
+  const input = path.join(temp, "input"), output = path.join(temp, "output");
+  await mkdir(input);
+  await sharp({
+    create: { width: 2400, height: 1600, channels: 3, background: "#a3c2d1" },
+  }).jpeg().withMetadata({ orientation: 6 })
+    .toFile(path.join(input, "2026-01-01.jpg"));
+
+  await mkdir(output);
+  await writeFile(path.join(output, "2026-01-01.0123456789abcdef.webp"), "old derivative");
+  const manifest = await buildGallery({ input, output });
+  const photo = manifest.photos[0];
+  const thumbnailPath = path.join(output, path.basename(photo.thumbnail));
+  const thumbnail = await sharp(thumbnailPath).metadata();
+  assert.equal(photo.preview, "photos/2026-01-01.jpg");
+  assert.equal(photo.width, 1600);
+  assert.equal(photo.height, 2400);
+  assert.deepEqual((await readdir(output)).sort(), [path.basename(photo.thumbnail), "manifest.json"].sort());
+  assert.equal(Math.max(thumbnail.width, thumbnail.height), 1400);
+  assert.ok((await stat(thumbnailPath)).size <= 500 * 1024);
+  const paths = manifest.photos.map(photo => [photo.preview, photo.thumbnail]);
+  const cached = await buildGallery({ input, output });
+  assert.deepEqual(cached.photos.map(photo => [photo.preview, photo.thumbnail]), paths);
 });

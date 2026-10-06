@@ -1,6 +1,7 @@
 import { chromium } from "playwright";
 import assert from "node:assert/strict";
 import { mkdir, readFile } from "node:fs/promises";
+import sharp from "sharp";
 const gallery = JSON.parse(
   await readFile("public/gallery/manifest.json", "utf8"),
 );
@@ -19,8 +20,26 @@ const browser = await chromium.launch({
 const page = await browser.newPage({ viewport: { width: 1600, height: 1000 } });
 const errors = [];
 page.on("pageerror", (error) => errors.push(error.message));
+page.on("requestfailed", request => {
+  if (new URL(request.url()).pathname.startsWith("/gallery/"))
+    errors.push(`Failed gallery request: ${request.url()}`);
+});
+page.on("response", response => {
+  if (new URL(response.url()).pathname.startsWith("/gallery/") && response.status() >= 400)
+    errors.push(`Gallery response ${response.status()}: ${response.url()}`);
+});
+async function assertCanvasRendered(canvas) {
+  const stats = await sharp(await canvas.screenshot()).stats();
+  assert.ok(stats.channels.slice(0, 3).some(channel => channel.stdev > 10), "canvas contains rendered scene pixels");
+}
+const detailPaths = new Set(gallery.photos.map(photo => `/${photo.preview}`));
+const detailRequests = [];
+page.on("request", request => {
+  const pathname = new URL(request.url()).pathname;
+  if (detailPaths.has(pathname)) detailRequests.push(pathname);
+});
 try {
-  await page.goto("http://127.0.0.1:5173", { waitUntil: "networkidle" });
+  await page.goto(process.env.PORTFOLIO_TEST_URL ?? "http://127.0.0.1:5173", { waitUntil: "networkidle" });
   await page.screenshot({ path: ".test-output/entrance.png" });
   await page.getByRole("button", { name: "进入作品展" }).click();
   await page.locator(".gallery-screen").waitFor({ state: "visible" });
@@ -76,15 +95,19 @@ try {
   await page.locator('[data-collection="5"]').click();
   await page.waitForTimeout(1300);
   await page.screenshot({ path: ".test-output/gallery.png" });
+  await assertCanvasRendered(page.locator(".scene-host canvas"));
+  assert.deepEqual(detailRequests, [], "browsing and selection load only thumbnails");
   await page.locator('.selection-hint').waitFor({ state: 'visible' });
   await page.locator('.selection-hint').click();
   await page.waitForTimeout(1800);
+  assert.deepEqual(detailRequests, [`/${latest.at(-1).preview}`], "opening details loads only the selected full-resolution image");
   assert.equal(
     await page.locator(".photo-note").count(),
     latest.at(-1).description ? 1 : 0,
   );
   await page.screenshot({ path: ".test-output/detail.png" });
   const detailCanvas = page.locator(".detail-stage canvas");
+  await assertCanvasRendered(detailCanvas);
   const rect = await detailCanvas.boundingBox();
   const beforeZoom = await detailCanvas.screenshot();
   await page.mouse.move(rect.x + rect.width / 2, rect.y + rect.height / 2);
@@ -142,9 +165,11 @@ try {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.waitForTimeout(700);
   await page.screenshot({ path: ".test-output/mobile.png" });
+  await assertCanvasRendered(page.locator(".scene-host canvas"));
   await page.getByRole("button", { name: "查看照片" }).click();
   await page.waitForTimeout(1200);
   await page.screenshot({ path: ".test-output/mobile-detail.png" });
+  await assertCanvasRendered(detailCanvas);
   const mobileRect = await detailCanvas.boundingBox();
   const session = await page.context().newCDPSession(page);
   const cx = mobileRect.x + mobileRect.width / 2,
