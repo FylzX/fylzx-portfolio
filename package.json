@@ -1,0 +1,27 @@
+{
+  "name": "fylzx-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "photos": "node scripts/gallery.mjs",
+    "demo": "node scripts/demo-photos.mjs",
+    "test": "node --test tests/gallery.test.mjs tests/navigation.test.mjs tests/collections.test.mjs tests/column-tracks.test.mjs",
+    "test:browser": "node tests/browser.mjs"
+  },
+  "dependencies": {
+    "exifr": "^7.1.3",
+    "sharp": "^0.34.5",
+    "three": "^0.183.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/three": "^0.183.0",
+    "playwright": "^1.58.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  }
+}

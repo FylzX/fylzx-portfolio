@@ -1,1 +1,8 @@
 RhineLabUI-main/
+LrC out/
+node_modules/
+dist/
+public/gallery/
+.test-output/
+.env
+.env.*

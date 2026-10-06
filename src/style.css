@@ -1,0 +1,879 @@
+:root {
+  color-scheme: light;
+  font-family: Manrope, "Microsoft YaHei", "微软雅黑", sans-serif;
+  color: #171915;
+  background: #e8e5e1;
+  font-synthesis: none;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+#app {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+button {
+  font: inherit;
+  color: inherit;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+button:focus-visible {
+  outline: 1px solid currentColor;
+  outline-offset: 5px;
+}
+.portfolio-shell {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #e8e5e1;
+  overflow: hidden;
+  transition:
+    background 0.5s,
+    color 0.5s;
+}
+.theme-dark {
+  color: #eeeee7;
+  background: #252823;
+}
+.welcome-screen {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-rows: 1fr auto 1fr;
+  padding: clamp(24px, 5vw, 76px);
+  transition:
+    opacity 0.26s,
+    transform 0.26s;
+  z-index: 20;
+}
+.welcome-screen.leave {
+  opacity: 0;
+  transform: scale(1.03);
+  pointer-events: none;
+}
+.welcome-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.welcome-brand span {
+  font-size: clamp(18px, 2vw, 28px);
+}
+.welcome-brand small,
+.eyebrow,
+.bottom-hint,
+.portfolio-footer,
+.topbar,
+.welcome-foot {
+  font:
+    500 10px/1.4 "DM Mono",
+    "Microsoft YaHei",
+    "微软雅黑",
+    monospace;
+  letter-spacing: 0.14em;
+}
+.welcome-center {
+  align-self: center;
+  max-width: 600px;
+}
+.welcome-center h1 {
+  font-size: clamp(64px, 11vw, 172px);
+  letter-spacing: -0.075em;
+  line-height: 0.8;
+  margin: 24px 0 48px;
+  font-weight: 500;
+}
+em {
+  font-style: normal;
+  font-weight: 400;
+}
+.enter-button {
+  border-bottom: 1px solid currentColor;
+  padding: 12px 0;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+}
+.enter-button span,
+.open-photo span {
+  padding-left: 18px;
+  font-size: 18px;
+}
+.welcome-foot {
+  align-self: end;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+.welcome-foot i,
+.bottom-hint i {
+  width: 28px;
+  height: 1px;
+  background: currentColor;
+  display: inline-block;
+  opacity: 0.4;
+}
+.gallery-screen,
+.detail-screen {
+  position: absolute;
+  inset: 0;
+}
+.gallery-screen.appear,
+.detail-screen.appear {
+  animation: appear 0.5s both;
+}
+.gallery-screen.behind {
+  opacity: 0.12;
+  filter: blur(8px);
+  pointer-events: none;
+}
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.topbar {
+  position: absolute;
+  left: clamp(24px, 4vw, 64px);
+  right: clamp(24px, 4vw, 64px);
+  top: 30px;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.brand b {
+  font:
+    600 19px Manrope,
+    "Microsoft YaHei",
+    "微软雅黑",
+    sans-serif;
+  letter-spacing: -0.04em;
+}
+.brand span {
+  opacity: 0.58;
+}
+.top-actions {
+  display: flex;
+  gap: 24px;
+}
+.top-actions button {
+  font:
+    500 10px "DM Mono",
+    "Microsoft YaHei",
+    "微软雅黑",
+    monospace;
+  letter-spacing: 0.1em;
+  opacity: 0.7;
+}
+.scene-host {
+  position: absolute;
+  inset: 0;
+}
+.scene-host canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+.gallery-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.collection-title {
+  position: absolute;
+  left: clamp(24px, 4vw, 64px);
+  top: 23%;
+}
+.collection-title h2 {
+  font-size: clamp(35px, 5vw, 76px);
+  letter-spacing: -0.07em;
+  line-height: 0.88;
+  font-weight: 500;
+  margin: 14px 0 12px;
+}
+.collection-title p {
+  font-size: 12px;
+  opacity: 0.55;
+}
+.collection-nav {
+  position: absolute;
+  right: clamp(24px, 4vw, 64px);
+  top: 22%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  pointer-events: auto;
+}
+.collection-nav button {
+  font:
+    500 clamp(18px, 2vw, 28px) "DM Mono",
+    "Microsoft YaHei",
+    "微软雅黑",
+    monospace;
+  opacity: 0.25;
+  transition:
+    opacity 0.2s,
+    transform 0.2s;
+  text-align: right;
+}
+.collection-nav button.active {
+  opacity: 1;
+  transform: translateX(-12px);
+}
+.collection-nav button.active::before {
+  content: "— ";
+}
+.photo-info {
+  position: absolute;
+  right: clamp(24px, 4vw, 64px);
+  bottom: 21%;
+  text-align: right;
+  pointer-events: auto;
+}
+.photo-info h3 {
+  font:
+    500 32px "DM Mono",
+    "Microsoft YaHei",
+    "微软雅黑",
+    monospace;
+  margin: 10px 0 4px;
+}
+.photo-info p {
+  margin: 0 0 24px;
+  opacity: 0.5;
+  font:
+    12px "DM Mono",
+    "Microsoft YaHei",
+    "微软雅黑",
+    monospace;
+}
+.open-photo {
+  border: 1px solid currentColor;
+  font-size: 16px;
+  padding: 15px 24px;
+  min-width: 174px;
+  min-height: 54px;
+  background: color-mix(in srgb, var(--surface, #e8e5e1) 76%, transparent);
+}
+.selection-hint {
+  position: absolute;
+  transform: translate(-50%, -100%);
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 14px;
+  background: rgba(232, 229, 225, 0.9);
+  color: #252823;
+  border: 1px solid rgba(120, 124, 116, 0.35);
+  backdrop-filter: blur(12px);
+  font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.selection-hint::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  height: 14px;
+  border-left: 1px solid currentColor;
+  opacity: 0.5;
+}
+.hint-icon {
+  width: 22px;
+  height: 22px;
+  display: grid;
+  place-items: center;
+  border: 1px solid currentColor;
+}
+.theme-dark .selection-hint {
+  background: rgba(37, 40, 35, 0.9);
+  color: #eeeee7;
+}
+.open-photo:hover:not(:disabled) {
+  background: color-mix(in srgb, currentColor 10%, var(--surface, #e8e5e1));
+}
+.direction-pad {
+  position: absolute;
+  bottom: 112px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: repeat(3, 44px);
+  grid-template-rows: repeat(2, 44px);
+  gap: 6px;
+  pointer-events: auto;
+}
+.direction-pad button {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  background: rgba(160, 164, 160, 0.28);
+  border: 1px solid rgba(170, 174, 170, 0.5);
+  backdrop-filter: blur(8px);
+  color: #60665d;
+}
+.direction-pad button:hover:not(:disabled) {
+  background: rgba(160, 164, 160, 0.5);
+}
+.direction-pad button:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+.direction-pad svg {
+  width: 21px;
+  height: 21px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+}
+.direction-pad [data-action="nav-up"] {
+  grid-column: 2;
+}
+.direction-pad [data-action="nav-left"] {
+  grid-column: 1;
+  grid-row: 2;
+}
+.direction-pad [data-action="nav-down"] {
+  grid-column: 2;
+  grid-row: 2;
+}
+.direction-pad [data-action="nav-right"] {
+  grid-column: 3;
+  grid-row: 2;
+}
+.theme-dark .direction-pad button {
+  color: #d5d8d0;
+}
+@media (max-width: 760px) {
+  .direction-pad {
+    left: 24px;
+    bottom: 142px;
+    transform: none;
+  }
+  .open-photo {
+    min-width: 146px;
+    padding: 13px 18px;
+  }
+}
+.bottom-hint {
+  position: absolute;
+  bottom: 72px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  opacity: 0.55;
+}
+.portfolio-footer {
+  position: absolute;
+  bottom: 26px;
+  left: clamp(24px, 4vw, 64px);
+  right: clamp(24px, 4vw, 64px);
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.6;
+}
+.detail-screen {
+  z-index: 5;
+  background: color-mix(in srgb, var(--surface, #e8e5e1) 92%, transparent);
+}
+.back-link {
+  position: absolute;
+  top: 34px;
+  left: clamp(24px, 4vw, 64px);
+  z-index: 2;
+  font:
+    11px "DM Mono",
+    "Microsoft YaHei",
+    "微软雅黑",
+    monospace;
+}
+.detail-stage {
+  position: absolute;
+  inset: 8% 43% 6% 4%;
+}
+.detail-stage canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  touch-action: none;
+}
+.detail-copy {
+  position: absolute;
+  right: clamp(24px, 7vw, 130px);
+  top: 23%;
+  width: min(38vw, 540px);
+}
+.detail-copy h2 {
+  font-size: clamp(46px, 7vw, 100px);
+  letter-spacing: -0.08em;
+  font-weight: 500;
+  margin: 17px 0 8px;
+}
+.detail-copy > p {
+  margin: 0 0 32px;
+  opacity: 0.55;
+  font:
+    12px "DM Mono",
+    "Microsoft YaHei",
+    "微软雅黑",
+    monospace;
+}
+.exif-list {
+  border-top: 1px solid currentColor;
+  max-width: 390px;
+}
+.meta-row {
+  border-bottom: 1px solid color-mix(in srgb, currentColor 22%, transparent);
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px 0;
+  font:
+    11px "DM Mono",
+    "Microsoft YaHei",
+    "微软雅黑",
+    monospace;
+}
+.meta-row span {
+  opacity: 0.48;
+}
+.meta-row strong {
+  font-weight: 400;
+  text-align: right;
+}
+.photo-note {
+  color: #787a72;
+  font-size: 12px;
+  line-height: 1.75;
+  margin: 22px 0;
+  max-width: 390px;
+}
+.meta-empty {
+  color: #898b84;
+  font-size: 12px;
+}
+.detail-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 19px;
+  margin-top: 38px;
+  font:
+    11px "DM Mono",
+    "Microsoft YaHei",
+    "微软雅黑",
+    monospace;
+}
+.detail-actions button {
+  opacity: 0.7;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 35%, transparent);
+  padding-bottom: 7px;
+}
+.modal {
+  position: absolute;
+  z-index: 30;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: #17191536;
+  backdrop-filter: blur(10px);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.modal.show {
+  opacity: 1;
+}
+.modal-panel {
+  width: min(650px, calc(100% - 48px));
+  min-height: 300px;
+  padding: 44px;
+  background: color-mix(in srgb, #f2f0eb 94%, transparent);
+  color: #171915;
+  position: relative;
+}
+.theme-dark .modal-panel {
+  background: #30332e;
+  color: #eeeee7;
+}
+.modal-close,
+.viewer-close {
+  position: absolute;
+  right: 24px;
+  top: 18px;
+  font-size: 26px;
+  font-weight: 300;
+}
+.modal-panel h2 {
+  font-size: 38px;
+  letter-spacing: -0.06em;
+  font-weight: 500;
+  margin: 26px 0;
+}
+.modal-panel p {
+  max-width: 500px;
+  line-height: 1.8;
+  font-size: 13px;
+  opacity: 0.7;
+}
+.modal-panel label {
+  display: block;
+  padding: 14px 0;
+  border-bottom: 1px solid #7774;
+  font-size: 13px;
+}
+.modal-panel select {
+  margin-left: 16px;
+  padding: 4px 10px;
+  background: transparent;
+  border: 1px solid currentColor;
+}
+.modal-note {
+  color: #787a72;
+}
+code {
+  font-family: "DM Mono", "Microsoft YaHei", "微软雅黑", monospace;
+}
+.viewer-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: #e8e5e1;
+}
+.theme-dark .viewer-overlay {
+  background: #252823;
+}
+.viewer-canvas {
+  position: absolute;
+  inset: 4% 9%;
+}
+.viewer-canvas canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  touch-action: none;
+}
+.viewer-close {
+  left: 28px;
+  right: auto;
+  top: 28px;
+  z-index: 2;
+}
+.viewer-close span {
+  font:
+    11px "DM Mono",
+    "Microsoft YaHei",
+    "微软雅黑",
+    monospace;
+  margin-left: 10px;
+}
+.viewer-tip {
+  position: absolute;
+  left: 50%;
+  bottom: 28px;
+  transform: translateX(-50%);
+  font:
+    10px "DM Mono",
+    "Microsoft YaHei",
+    "微软雅黑",
+    monospace;
+  opacity: 0.6;
+}
+.toast {
+  position: absolute;
+  z-index: 50;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, 12px);
+  padding: 12px 18px;
+  background: #171915;
+  color: #f5f2ec;
+  font-size: 12px;
+  opacity: 0;
+  transition:
+    opacity 0.2s,
+    transform 0.2s;
+  pointer-events: none;
+}
+.toast.show {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+.error-screen {
+  height: 100%;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  gap: 14px;
+}
+.error-screen b {
+  font-size: 22px;
+}
+.error-screen button {
+  border-bottom: 1px solid currentColor;
+  padding: 8px;
+}
+@media (max-width: 760px) {
+  .welcome-center h1 {
+    font-size: clamp(54px, 16vw, 100px);
+  }
+  .collection-title {
+    top: 15%;
+  }
+  .collection-title h2 {
+    font-size: 42px;
+  }
+  .collection-nav {
+    top: 15%;
+  }
+  .photo-info {
+    bottom: 19%;
+  }
+  .bottom-hint {
+    bottom: 60px;
+    font-size: 8px;
+  }
+  .portfolio-footer {
+    bottom: 22px;
+    font-size: 8px;
+  }
+  .detail-stage {
+    inset: 10% 0 47% 0;
+  }
+  .detail-copy {
+    top: auto;
+    bottom: 6%;
+    left: 24px;
+    right: 24px;
+    width: auto;
+  }
+  .detail-copy h2 {
+    font-size: 52px;
+    margin: 10px 0 5px;
+  }
+  .detail-copy > p {
+    margin-bottom: 12px;
+  }
+  .exif-list {
+    max-width: none;
+  }
+  .detail-actions {
+    margin-top: 14px;
+    gap: 12px;
+  }
+  .viewer-canvas {
+    inset: 12% 2%;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+[hidden] {
+  display: none !important;
+}
+.reduced-motion *,
+.reduced-motion *::before,
+.reduced-motion *::after {
+  animation-duration: 0.01ms !important;
+  transition-duration: 0.01ms !important;
+}
+.scene-host {
+  z-index: 0;
+}
+.gallery-overlay,
+.portfolio-footer {
+  z-index: 2;
+}
+.collection-nav {
+  max-height: 29vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  padding: 4px 12px 4px 24px;
+  overscroll-behavior: contain;
+}
+.collection-nav button {
+  font-size: 19px;
+  flex-shrink: 0;
+}
+.collection-nav button.active {
+  transform: none;
+}
+.collection-nav button.active::before {
+  content: "· ";
+}
+button:disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+.theme-dark {
+  --surface: #252823;
+  color-scheme: dark;
+}
+.detail-copy h2 {
+  font-size: clamp(23px, 2.8vw, 44px);
+  letter-spacing: -0.045em;
+  overflow-wrap: anywhere;
+}
+.detail-copy {
+  max-height: 70%;
+  overflow-y: auto;
+  padding-right: 12px;
+}
+.detail-stage .scene-host {
+  inset: 0;
+}
+.viewer-reset {
+  position: absolute;
+  right: 30px;
+  bottom: 28px;
+  font-size: 12px;
+}
+.photo-note {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.welcome-foot {
+  line-height: 1.8;
+}
+@media (max-width: 760px) {
+  .detail-copy {
+    max-height: 47%;
+    bottom: 3%;
+  }
+  .detail-copy h2 {
+    font-size: 27px;
+  }
+  .welcome-foot {
+    font-size: 8px;
+    flex-wrap: wrap;
+  }
+  .bottom-hint {
+    width: 100%;
+    text-align: center;
+    white-space: normal;
+    padding: 0 20px;
+    line-height: 2;
+  }
+  .photo-info h3 {
+    font-size: 22px;
+  }
+  .viewer-tip {
+    width: 70%;
+    text-align: center;
+    bottom: 50px;
+  }
+}
+
+input,
+select,
+textarea {
+  font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+}
+.collection-nav,
+.photo-info {
+  background: rgba(232, 229, 225, 0.86);
+  border: 1px solid rgba(120, 124, 116, 0.22);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  padding: 16px 20px;
+}
+.collection-nav button {
+  opacity: 0.72;
+}
+.collection-nav button.active {
+  opacity: 1;
+}
+.photo-info p {
+  opacity: 0.8;
+}
+.theme-dark .collection-nav,
+.theme-dark .photo-info {
+  background: rgba(37, 40, 35, 0.86);
+  border-color: rgba(210, 214, 204, 0.24);
+}
+.detail-view-controls {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  bottom: 12px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  background: rgba(232, 229, 225, 0.86);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(120, 124, 116, 0.22);
+  white-space: nowrap;
+}
+.detail-view-controls button {
+  min-width: 40px;
+  min-height: 40px;
+  font-size: 20px;
+}
+.detail-view-controls [data-action="reset-photo"] {
+  font-size: 12px;
+}
+.detail-view-controls span {
+  font-size: 11px;
+  color: #64695f;
+}
+.theme-dark .detail-view-controls {
+  background: rgba(37, 40, 35, 0.86);
+}
+.theme-dark .detail-view-controls span {
+  color: #c3c7bd;
+}
+@media (max-width: 760px) {
+  .photo-info {
+    padding: 12px;
+    max-width: calc(100% - 195px);
+  }
+  .photo-info h3 {
+    font-size: 16px;
+    overflow-wrap: anywhere;
+  }
+  .detail-view-controls span {
+    display: none;
+  }
+}
+@media (max-width: 760px) {
+  .collection-nav {
+    top: 34%;
+    left: 24px;
+    right: 24px;
+    flex-direction: row;
+    max-height: 52px;
+    padding: 8px 0;
+    gap: 18px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .collection-nav button {
+    font-size: 14px;
+    white-space: nowrap;
+  }
+}
