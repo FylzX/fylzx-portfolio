@@ -1,0 +1,4381 @@
+{
+  "collections": [
+    {
+      "id": "2024",
+      "label": "2024",
+      "startMonth": "2024-01",
+      "endMonth": "2024-12"
+    },
+    {
+      "id": "2025-01",
+      "label": "2025 · 1月",
+      "startMonth": "2025-01",
+      "endMonth": "2025-01"
+    },
+    {
+      "id": "2025-02-03",
+      "label": "2025 · 2—3月",
+      "startMonth": "2025-02",
+      "endMonth": "2025-03"
+    },
+    {
+      "id": "2025-04-07",
+      "label": "2025 · 4—7月",
+      "startMonth": "2025-04",
+      "endMonth": "2025-07"
+    },
+    {
+      "id": "2025-08-12",
+      "label": "2025 · 8—12月",
+      "startMonth": "2025-08",
+      "endMonth": "2025-12"
+    },
+    {
+      "id": "2026",
+      "label": "2026",
+      "startMonth": "2026-01",
+      "endMonth": "2026-12"
+    }
+  ],
+  "photos": [
+    {
+      "id": "2024-10-04-01",
+      "filename": "2024-10-04-01.jpg",
+      "date": "2024-10-04",
+      "year": 2024,
+      "month": "2024-10",
+      "sequence": 1,
+      "preview": "photos/2024-10-04-01.jpg",
+      "thumbnail": "gallery/2024-10-04-01.6d33f5c00e06c242.thumb.webp",
+      "width": 3168,
+      "height": 4752,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 50D"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "82 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/5000 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/5.6"
+        },
+        {
+          "label": "ISO",
+          "value": "3200"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2024-10-04 17:43:08"
+        }
+      ],
+      "description": "",
+      "collection": "2024"
+    },
+    {
+      "id": "2024-11-08-01",
+      "filename": "2024-11-08-01.jpg",
+      "date": "2024-11-08",
+      "year": 2024,
+      "month": "2024-11",
+      "sequence": 1,
+      "preview": "photos/2024-11-08-01.jpg",
+      "thumbnail": "gallery/2024-11-08-01.2d688bea4e78ac6f.thumb.webp",
+      "width": 3648,
+      "height": 2052,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "DJI FC8482"
+        },
+        {
+          "label": "镜头",
+          "value": "24.0 mm f/1.7"
+        },
+        {
+          "label": "焦距",
+          "value": "6.7 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/1600 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/1.7"
+        },
+        {
+          "label": "ISO",
+          "value": "200"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2024-10-23 16:54:31"
+        }
+      ],
+      "description": "",
+      "collection": "2024"
+    },
+    {
+      "id": "2024-11-08-02",
+      "filename": "2024-11-08-02.jpg",
+      "date": "2024-11-08",
+      "year": 2024,
+      "month": "2024-11",
+      "sequence": 2,
+      "preview": "photos/2024-11-08-02.jpg",
+      "thumbnail": "gallery/2024-11-08-02.c5dac58d412b2d3e.thumb.webp",
+      "width": 3000,
+      "height": 1977,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "DJI AC002"
+        },
+        {
+          "label": "镜头",
+          "value": "2.3 mm f/2.8"
+        },
+        {
+          "label": "焦距",
+          "value": "2.3 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/120 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/2.8"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2024-11-05 06:31:13"
+        }
+      ],
+      "description": "",
+      "collection": "2024"
+    },
+    {
+      "id": "2024-12-13-01",
+      "filename": "2024-12-13-01.jpg",
+      "date": "2024-12-13",
+      "year": 2024,
+      "month": "2024-12",
+      "sequence": 1,
+      "preview": "photos/2024-12-13-01.jpg",
+      "thumbnail": "gallery/2024-12-13-01.279de4b84f86f6ea.thumb.webp",
+      "width": 5552,
+      "height": 3701,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 24-200mm f/4-6.3 VR"
+        },
+        {
+          "label": "焦距",
+          "value": "200 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/640 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/6.3"
+        },
+        {
+          "label": "ISO",
+          "value": "64"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2024-12-08 11:54:13 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2024"
+    },
+    {
+      "id": "2024-12-13-02",
+      "filename": "2024-12-13-02.jpg",
+      "date": "2024-12-13",
+      "year": 2024,
+      "month": "2024-12",
+      "sequence": 2,
+      "preview": "photos/2024-12-13-02.jpg",
+      "thumbnail": "gallery/2024-12-13-02.9a8def5fe5db7ea8.thumb.webp",
+      "width": 5018,
+      "height": 3340,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 24-200mm f/4-6.3 VR"
+        },
+        {
+          "label": "焦距",
+          "value": "200 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/640 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/6.3"
+        },
+        {
+          "label": "ISO",
+          "value": "64"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2024-12-08 12:17:13 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2024"
+    },
+    {
+      "id": "2024-12-13-03",
+      "filename": "2024-12-13-03.jpg",
+      "date": "2024-12-13",
+      "year": 2024,
+      "month": "2024-12",
+      "sequence": 3,
+      "preview": "photos/2024-12-13-03.jpg",
+      "thumbnail": "gallery/2024-12-13-03.3373ce268907401a.thumb.webp",
+      "width": 4835,
+      "height": 3219,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 24-200mm f/4-6.3 VR"
+        },
+        {
+          "label": "焦距",
+          "value": "200 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/1000 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/6.3"
+        },
+        {
+          "label": "ISO",
+          "value": "64"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2024-12-08 12:31:37 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2024"
+    },
+    {
+      "id": "2024-12-13-04",
+      "filename": "2024-12-13-04.jpg",
+      "date": "2024-12-13",
+      "year": 2024,
+      "month": "2024-12",
+      "sequence": 4,
+      "preview": "photos/2024-12-13-04.jpg",
+      "thumbnail": "gallery/2024-12-13-04.513abd183ca270f8.thumb.webp",
+      "width": 4422,
+      "height": 2944,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 24-200mm f/4-6.3 VR"
+        },
+        {
+          "label": "焦距",
+          "value": "200 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/640 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/6.3"
+        },
+        {
+          "label": "ISO",
+          "value": "64"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2024-12-08 14:09:39 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2024"
+    },
+    {
+      "id": "2024-12-27-01",
+      "filename": "2024-12-27-01.jpg",
+      "date": "2024-12-27",
+      "year": 2024,
+      "month": "2024-12",
+      "sequence": 1,
+      "preview": "photos/2024-12-27-01.jpg",
+      "thumbnail": "gallery/2024-12-27-01.483f04f7f2ca8205.thumb.webp",
+      "width": 3168,
+      "height": 3406,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 50D"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "24 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/60 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4.5"
+        },
+        {
+          "label": "ISO",
+          "value": "400"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2024-12-28 15:35:46"
+        }
+      ],
+      "description": "",
+      "collection": "2024"
+    },
+    {
+      "id": "2025-01-04-01",
+      "filename": "2025-01-04-01.jpg",
+      "date": "2025-01-04",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 1,
+      "preview": "photos/2025-01-04-01.jpg",
+      "thumbnail": "gallery/2025-01-04-01.0f7848b1d2954408.thumb.webp",
+      "width": 4464,
+      "height": 2976,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 50mm f/1.8 S"
+        },
+        {
+          "label": "焦距",
+          "value": "50 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/30 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/8"
+        },
+        {
+          "label": "ISO",
+          "value": "64"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-01 15:25:57 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-04-02",
+      "filename": "2025-01-04-02.jpg",
+      "date": "2025-01-04",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 2,
+      "preview": "photos/2025-01-04-02.jpg",
+      "thumbnail": "gallery/2025-01-04-02.10a4e46a138e6edf.thumb.webp",
+      "width": 8256,
+      "height": 5504,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 50mm f/1.8 S"
+        },
+        {
+          "label": "焦距",
+          "value": "50 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/30 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/8"
+        },
+        {
+          "label": "ISO",
+          "value": "64"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-01 15:27:24 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-04-03",
+      "filename": "2025-01-04-03.jpg",
+      "date": "2025-01-04",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 3,
+      "preview": "photos/2025-01-04-03.jpg",
+      "thumbnail": "gallery/2025-01-04-03.697664de1e12d7d4.thumb.webp",
+      "width": 6772,
+      "height": 4515,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 24-200mm f/4-6.3 VR"
+        },
+        {
+          "label": "焦距",
+          "value": "170 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/50 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/6.3"
+        },
+        {
+          "label": "ISO",
+          "value": "1250"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-01 17:29:13 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-04-04",
+      "filename": "2025-01-04-04.jpg",
+      "date": "2025-01-04",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 4,
+      "preview": "photos/2025-01-04-04.jpg",
+      "thumbnail": "gallery/2025-01-04-04.fd41a2cfe06ebd01.thumb.webp",
+      "width": 8256,
+      "height": 5504,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 24-200mm f/4-6.3 VR"
+        },
+        {
+          "label": "焦距",
+          "value": "200 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/50 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/6.3"
+        },
+        {
+          "label": "ISO",
+          "value": "1250"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-01 17:32:07 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-04-05",
+      "filename": "2025-01-04-05.jpg",
+      "date": "2025-01-04",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 5,
+      "preview": "photos/2025-01-04-05.jpg",
+      "thumbnail": "gallery/2025-01-04-05.cf4ca4d587554fac.thumb.webp",
+      "width": 7126,
+      "height": 4751,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 50mm f/1.8 S"
+        },
+        {
+          "label": "焦距",
+          "value": "50 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/25 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/1.8"
+        },
+        {
+          "label": "ISO",
+          "value": "200"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-01 17:45:47 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-04-06",
+      "filename": "2025-01-04-06.jpg",
+      "date": "2025-01-04",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 6,
+      "preview": "photos/2025-01-04-06.jpg",
+      "thumbnail": "gallery/2025-01-04-06.15f84e171602dbbe.thumb.webp",
+      "width": 8256,
+      "height": 5504,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 50mm f/1.8 S"
+        },
+        {
+          "label": "焦距",
+          "value": "50 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/500 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/1.8"
+        },
+        {
+          "label": "ISO",
+          "value": "3200"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-01 18:21:37 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-04-07",
+      "filename": "2025-01-04-07.jpg",
+      "date": "2025-01-04",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 7,
+      "preview": "photos/2025-01-04-07.jpg",
+      "thumbnail": "gallery/2025-01-04-07.5f120463e612db1e.thumb.webp",
+      "width": 8064,
+      "height": 4536,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "DJI FC8482"
+        },
+        {
+          "label": "镜头",
+          "value": "24.0 mm f/1.7"
+        },
+        {
+          "label": "焦距",
+          "value": "6.7 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/1250 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/1.7"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-11 14:10:36"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-11-01",
+      "filename": "2025-01-11-01.jpg",
+      "date": "2025-01-11",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 1,
+      "preview": "photos/2025-01-11-01.jpg",
+      "thumbnail": "gallery/2025-01-11-01.320bb065bf7769d1.thumb.webp",
+      "width": 8064,
+      "height": 4536,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "DJI FC8482"
+        },
+        {
+          "label": "镜头",
+          "value": "24.0 mm f/1.7"
+        },
+        {
+          "label": "焦距",
+          "value": "6.7 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/1250 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/1.7"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-11 14:10:36"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-11-02",
+      "filename": "2025-01-11-02.jpg",
+      "date": "2025-01-11",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 2,
+      "preview": "photos/2025-01-11-02.jpg",
+      "thumbnail": "gallery/2025-01-11-02.20160f4265a621e3.thumb.webp",
+      "width": 4140,
+      "height": 2756,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 24-200mm f/4-6.3 VR"
+        },
+        {
+          "label": "焦距",
+          "value": "42 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/125 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/5.3"
+        },
+        {
+          "label": "ISO",
+          "value": "80"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-11 15:42:05 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-11-03",
+      "filename": "2025-01-11-03.jpg",
+      "date": "2025-01-11",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 3,
+      "preview": "photos/2025-01-11-03.jpg",
+      "thumbnail": "gallery/2025-01-11-03.ceaaf639fb43f8c9.thumb.webp",
+      "width": 3797,
+      "height": 2528,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 24-200mm f/4-6.3 VR"
+        },
+        {
+          "label": "焦距",
+          "value": "200 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/40 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/6.3"
+        },
+        {
+          "label": "ISO",
+          "value": "64"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-11 15:59:29 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-11-04",
+      "filename": "2025-01-11-04.jpg",
+      "date": "2025-01-11",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 4,
+      "preview": "photos/2025-01-11-04.jpg",
+      "thumbnail": "gallery/2025-01-11-04.d556e541d5d4e56a.thumb.webp",
+      "width": 5408,
+      "height": 3600,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 24-200mm f/4-6.3 VR"
+        },
+        {
+          "label": "焦距",
+          "value": "70 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/40 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/6.3"
+        },
+        {
+          "label": "ISO",
+          "value": "64"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-11 16:03:03 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-11-05",
+      "filename": "2025-01-11-05.jpg",
+      "date": "2025-01-11",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 5,
+      "preview": "photos/2025-01-11-05.jpg",
+      "thumbnail": "gallery/2025-01-11-05.39705d5d700b4b70.thumb.webp",
+      "width": 5408,
+      "height": 3600,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 24-200mm f/4-6.3 VR"
+        },
+        {
+          "label": "焦距",
+          "value": "38 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/50 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/6.3"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-11 16:06:16 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-11-06",
+      "filename": "2025-01-11-06.jpg",
+      "date": "2025-01-11",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 6,
+      "preview": "photos/2025-01-11-06.jpg",
+      "thumbnail": "gallery/2025-01-11-06.a04e368408ccab9c.thumb.webp",
+      "width": 4107,
+      "height": 2734,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 24-200mm f/4-6.3 VR"
+        },
+        {
+          "label": "焦距",
+          "value": "26 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/50 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/6.3"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-11 16:15:00 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-11-07",
+      "filename": "2025-01-11-07.jpg",
+      "date": "2025-01-11",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 7,
+      "preview": "photos/2025-01-11-07.jpg",
+      "thumbnail": "gallery/2025-01-11-07.746bc894eda3072b.thumb.webp",
+      "width": 4624,
+      "height": 3078,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 24-200mm f/4-6.3 VR"
+        },
+        {
+          "label": "焦距",
+          "value": "104 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/100 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/6.3"
+        },
+        {
+          "label": "ISO",
+          "value": "250"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-11 16:40:11 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-11-08",
+      "filename": "2025-01-11-08.jpg",
+      "date": "2025-01-11",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 8,
+      "preview": "photos/2025-01-11-08.jpg",
+      "thumbnail": "gallery/2025-01-11-08.7615f96f6aa83899.thumb.webp",
+      "width": 5504,
+      "height": 8256,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 24-200mm f/4-6.3 VR"
+        },
+        {
+          "label": "焦距",
+          "value": "200 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/100 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/6.3"
+        },
+        {
+          "label": "ISO",
+          "value": "640"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-11 16:51:29 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-22-01",
+      "filename": "2025-01-22-01.jpg",
+      "date": "2025-01-22",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 1,
+      "preview": "photos/2025-01-22-01.jpg",
+      "thumbnail": "gallery/2025-01-22-01.a0d75c960818eba6.thumb.webp",
+      "width": 3872,
+      "height": 2592,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON D80"
+        },
+        {
+          "label": "镜头",
+          "value": "18.0-135.0 mm f/3.5-5.6"
+        },
+        {
+          "label": "焦距",
+          "value": "66 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/50 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/5.3"
+        },
+        {
+          "label": "ISO",
+          "value": "400"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2006-06-10 07:26:33"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-26-01",
+      "filename": "2025-01-26-01.jpg",
+      "date": "2025-01-26",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 1,
+      "preview": "photos/2025-01-26-01.jpg",
+      "thumbnail": "gallery/2025-01-26-01.a603754ed68f96b5.thumb.webp",
+      "width": 3965,
+      "height": 2643,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 50D"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "73 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/160 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-26 12:19:48"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-26-02",
+      "filename": "2025-01-26-02.jpg",
+      "date": "2025-01-26",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 2,
+      "preview": "photos/2025-01-26-02.jpg",
+      "thumbnail": "gallery/2025-01-26-02.8bbf71180ca80ac5.thumb.webp",
+      "width": 4752,
+      "height": 3168,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 50D"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "75 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/80 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "250"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-26 12:42:27"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-26-03",
+      "filename": "2025-01-26-03.jpg",
+      "date": "2025-01-26",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 3,
+      "preview": "photos/2025-01-26-03.jpg",
+      "thumbnail": "gallery/2025-01-26-03.f0a253a54a53b5c7.thumb.webp",
+      "width": 4238,
+      "height": 2825,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 50D"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "105 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/160 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-26 13:19:47"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-26-04",
+      "filename": "2025-01-26-04.jpg",
+      "date": "2025-01-26",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 4,
+      "preview": "photos/2025-01-26-04.jpg",
+      "thumbnail": "gallery/2025-01-26-04.a1794bc0b9ab10a6.thumb.webp",
+      "width": 4271,
+      "height": 2847,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 50D"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "67 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/200 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-26 13:35:28"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-26-05",
+      "filename": "2025-01-26-05.jpg",
+      "date": "2025-01-26",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 5,
+      "preview": "photos/2025-01-26-05.jpg",
+      "thumbnail": "gallery/2025-01-26-05.051dab63f78a801c.thumb.webp",
+      "width": 4752,
+      "height": 3168,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 50D"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "105 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/125 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/8"
+        },
+        {
+          "label": "ISO",
+          "value": "400"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-26 14:06:32"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-27-01",
+      "filename": "2025-01-27-01.jpg",
+      "date": "2025-01-27",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 1,
+      "preview": "photos/2025-01-27-01.jpg",
+      "thumbnail": "gallery/2025-01-27-01.af2a29fbd9f41a41.thumb.webp",
+      "width": 4752,
+      "height": 3168,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 50D"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "45 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/200 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-27 15:02:59"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-27-02",
+      "filename": "2025-01-27-02.jpg",
+      "date": "2025-01-27",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 2,
+      "preview": "photos/2025-01-27-02.jpg",
+      "thumbnail": "gallery/2025-01-27-02.fc48010482bb68da.thumb.webp",
+      "width": 3168,
+      "height": 4752,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 50D"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "32 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/160 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "1000"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-27 16:08:39"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-27-03",
+      "filename": "2025-01-27-03.jpg",
+      "date": "2025-01-27",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 3,
+      "preview": "photos/2025-01-27-03.jpg",
+      "thumbnail": "gallery/2025-01-27-03.953fdf70a17a2b2b.thumb.webp",
+      "width": 4340,
+      "height": 2893,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 50D"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "32 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/400 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-27 16:37:18"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-27-04",
+      "filename": "2025-01-27-04.jpg",
+      "date": "2025-01-27",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 4,
+      "preview": "photos/2025-01-27-04.jpg",
+      "thumbnail": "gallery/2025-01-27-04.d92e286e55417986.thumb.webp",
+      "width": 4752,
+      "height": 3168,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 50D"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "105 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/160 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "1000"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-27 17:47:59"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-27-05",
+      "filename": "2025-01-27-05.png",
+      "date": "2025-01-27",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 5,
+      "preview": "photos/2025-01-27-05.png",
+      "thumbnail": "gallery/2025-01-27-05.164f69052574131f.thumb.webp",
+      "width": 4038,
+      "height": 2692,
+      "exif": [],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-01-27-06",
+      "filename": "2025-01-27-06.jpg",
+      "date": "2025-01-27",
+      "year": 2025,
+      "month": "2025-01",
+      "sequence": 6,
+      "preview": "photos/2025-01-27-06.jpg",
+      "thumbnail": "gallery/2025-01-27-06.a033cddfc6ad2198.thumb.webp",
+      "width": 3990,
+      "height": 2660,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 50D"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "24 mm"
+        },
+        {
+          "label": "快门",
+          "value": "5 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/22"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-01-30 14:44:21"
+        }
+      ],
+      "description": "",
+      "collection": "2025-01"
+    },
+    {
+      "id": "2025-02-04-01",
+      "filename": "2025-02-04-01.jpg",
+      "date": "2025-02-04",
+      "year": 2025,
+      "month": "2025-02",
+      "sequence": 1,
+      "preview": "photos/2025-02-04-01.jpg",
+      "thumbnail": "gallery/2025-02-04-01.b44986e18910a739.thumb.webp",
+      "width": 4752,
+      "height": 3168,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 50D"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "60 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/160 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "320"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-02-04 17:05:22"
+        }
+      ],
+      "description": "",
+      "collection": "2025-02-03"
+    },
+    {
+      "id": "2025-02-04-02",
+      "filename": "2025-02-04-02.jpg",
+      "date": "2025-02-04",
+      "year": 2025,
+      "month": "2025-02",
+      "sequence": 2,
+      "preview": "photos/2025-02-04-02.jpg",
+      "thumbnail": "gallery/2025-02-04-02.c37369ea90debc70.thumb.webp",
+      "width": 4752,
+      "height": 3168,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 50D"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "50 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/640 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "320"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-02-04 17:21:45"
+        }
+      ],
+      "description": "",
+      "collection": "2025-02-03"
+    },
+    {
+      "id": "2025-02-04-03",
+      "filename": "2025-02-04-03.jpg",
+      "date": "2025-02-04",
+      "year": 2025,
+      "month": "2025-02",
+      "sequence": 3,
+      "preview": "photos/2025-02-04-03.jpg",
+      "thumbnail": "gallery/2025-02-04-03.1b82dbcc28074873.thumb.webp",
+      "width": 4752,
+      "height": 3168,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 50D"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "58 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/160 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "500"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-02-04 17:51:39"
+        }
+      ],
+      "description": "",
+      "collection": "2025-02-03"
+    },
+    {
+      "id": "2025-02-04-04",
+      "filename": "2025-02-04-04.jpg",
+      "date": "2025-02-04",
+      "year": 2025,
+      "month": "2025-02",
+      "sequence": 4,
+      "preview": "photos/2025-02-04-04.jpg",
+      "thumbnail": "gallery/2025-02-04-04.a0ad0b980380bae6.thumb.webp",
+      "width": 4708,
+      "height": 3139,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 50D"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "24 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/100 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "500"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-02-04 18:40:02"
+        }
+      ],
+      "description": "",
+      "collection": "2025-02-03"
+    },
+    {
+      "id": "2025-02-04-05",
+      "filename": "2025-02-04-05.jpg",
+      "date": "2025-02-04",
+      "year": 2025,
+      "month": "2025-02",
+      "sequence": 5,
+      "preview": "photos/2025-02-04-05.jpg",
+      "thumbnail": "gallery/2025-02-04-05.2deff9100fb2b735.thumb.webp",
+      "width": 4752,
+      "height": 3168,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 50D"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "24 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/60 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "500"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-02-04 18:42:26"
+        }
+      ],
+      "description": "",
+      "collection": "2025-02-03"
+    },
+    {
+      "id": "2025-02-04-06",
+      "filename": "2025-02-04-06.jpg",
+      "date": "2025-02-04",
+      "year": 2025,
+      "month": "2025-02",
+      "sequence": 6,
+      "preview": "photos/2025-02-04-06.jpg",
+      "thumbnail": "gallery/2025-02-04-06.1d27e0b75e57ece4.thumb.webp",
+      "width": 4183,
+      "height": 2789,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 50D"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "95 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/50 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "3200"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-02-04 21:42:40"
+        }
+      ],
+      "description": "",
+      "collection": "2025-02-03"
+    },
+    {
+      "id": "2025-02-04-07",
+      "filename": "2025-02-04-07.jpg",
+      "date": "2025-02-04",
+      "year": 2025,
+      "month": "2025-02",
+      "sequence": 7,
+      "preview": "photos/2025-02-04-07.jpg",
+      "thumbnail": "gallery/2025-02-04-07.9750c7f8283d2ebd.thumb.webp",
+      "width": 4752,
+      "height": 3168,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 50D"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "24 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/40 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "3200"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-02-04 22:03:10"
+        }
+      ],
+      "description": "",
+      "collection": "2025-02-03"
+    },
+    {
+      "id": "2025-02-21-01",
+      "filename": "2025-02-21-01.jpg",
+      "date": "2025-02-21",
+      "year": 2025,
+      "month": "2025-02",
+      "sequence": 1,
+      "preview": "photos/2025-02-21-01.jpg",
+      "thumbnail": "gallery/2025-02-21-01.75c87589e1c21419.thumb.webp",
+      "width": 5208,
+      "height": 3472,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "60 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/160 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-02-18 06:48:23"
+        }
+      ],
+      "description": "",
+      "collection": "2025-02-03"
+    },
+    {
+      "id": "2025-03-07-01",
+      "filename": "2025-03-07-01.jpg",
+      "date": "2025-03-07",
+      "year": 2025,
+      "month": "2025-03",
+      "sequence": 1,
+      "preview": "photos/2025-03-07-01.jpg",
+      "thumbnail": "gallery/2025-03-07-01.d0f583ba4bd1926d.thumb.webp",
+      "width": 4410,
+      "height": 2940,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "105 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/1250 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-03-06 12:55:51"
+        }
+      ],
+      "description": "",
+      "collection": "2025-02-03"
+    },
+    {
+      "id": "2025-03-07-02",
+      "filename": "2025-03-07-02.jpg",
+      "date": "2025-03-07",
+      "year": 2025,
+      "month": "2025-03",
+      "sequence": 2,
+      "preview": "photos/2025-03-07-02.jpg",
+      "thumbnail": "gallery/2025-03-07-02.f98e5259528c36bc.thumb.webp",
+      "width": 3225,
+      "height": 2150,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "105 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/800 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-03-06 13:04:16"
+        }
+      ],
+      "description": "",
+      "collection": "2025-02-03"
+    },
+    {
+      "id": "2025-03-07-03",
+      "filename": "2025-03-07-03.jpg",
+      "date": "2025-03-07",
+      "year": 2025,
+      "month": "2025-03",
+      "sequence": 3,
+      "preview": "photos/2025-03-07-03.jpg",
+      "thumbnail": "gallery/2025-03-07-03.d49aafd65550e556.thumb.webp",
+      "width": 4918,
+      "height": 3279,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "32 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/100 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/7.1"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-03-06 17:36:35"
+        }
+      ],
+      "description": "",
+      "collection": "2025-02-03"
+    },
+    {
+      "id": "2025-03-21-01",
+      "filename": "2025-03-21-01.jpg",
+      "date": "2025-03-21",
+      "year": 2025,
+      "month": "2025-03",
+      "sequence": 1,
+      "preview": "photos/2025-03-21-01.jpg",
+      "thumbnail": "gallery/2025-03-21-01.244e73bfd2b9cb75.thumb.webp",
+      "width": 5048,
+      "height": 3365,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "105 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/1250 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-03-17 12:52:38"
+        }
+      ],
+      "description": "",
+      "collection": "2025-02-03"
+    },
+    {
+      "id": "2025-03-21-02",
+      "filename": "2025-03-21-02.jpg",
+      "date": "2025-03-21",
+      "year": 2025,
+      "month": "2025-03",
+      "sequence": 2,
+      "preview": "photos/2025-03-21-02.jpg",
+      "thumbnail": "gallery/2025-03-21-02.721535a963cfe218.thumb.webp",
+      "width": 5474,
+      "height": 3649,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "105 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/250 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-03-19 16:29:03"
+        }
+      ],
+      "description": "",
+      "collection": "2025-02-03"
+    },
+    {
+      "id": "2025-03-21-03",
+      "filename": "2025-03-21-03.jpg",
+      "date": "2025-03-21",
+      "year": 2025,
+      "month": "2025-03",
+      "sequence": 3,
+      "preview": "photos/2025-03-21-03.jpg",
+      "thumbnail": "gallery/2025-03-21-03.283ae4da7795cfe4.thumb.webp",
+      "width": 2857,
+      "height": 4285,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "50 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/200 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-03-19 16:52:25"
+        }
+      ],
+      "description": "",
+      "collection": "2025-02-03"
+    },
+    {
+      "id": "2025-03-21-04",
+      "filename": "2025-03-21-04.jpg",
+      "date": "2025-03-21",
+      "year": 2025,
+      "month": "2025-03",
+      "sequence": 4,
+      "preview": "photos/2025-03-21-04.jpg",
+      "thumbnail": "gallery/2025-03-21-04.27a81ad57f65dfd0.thumb.webp",
+      "width": 5616,
+      "height": 3744,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "97 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/800 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-03-21 15:06:20"
+        }
+      ],
+      "description": "",
+      "collection": "2025-02-03"
+    },
+    {
+      "id": "2025-03-23-01",
+      "filename": "2025-03-23-01.jpg",
+      "date": "2025-03-23",
+      "year": 2025,
+      "month": "2025-03",
+      "sequence": 1,
+      "preview": "photos/2025-03-23-01.jpg",
+      "thumbnail": "gallery/2025-03-23-01.9c1da6acda5d8f5e.thumb.webp",
+      "width": 2851,
+      "height": 1901,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "105 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/400 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/9"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-03-23 13:56:23"
+        }
+      ],
+      "description": "",
+      "collection": "2025-02-03"
+    },
+    {
+      "id": "2025-03-23-02",
+      "filename": "2025-03-23-02.jpg",
+      "date": "2025-03-23",
+      "year": 2025,
+      "month": "2025-03",
+      "sequence": 2,
+      "preview": "photos/2025-03-23-02.jpg",
+      "thumbnail": "gallery/2025-03-23-02.37c30f917a93f8eb.thumb.webp",
+      "width": 2105,
+      "height": 1403,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "88 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/400 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/9"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-03-23 14:20:25"
+        }
+      ],
+      "description": "",
+      "collection": "2025-02-03"
+    },
+    {
+      "id": "2025-03-23-03",
+      "filename": "2025-03-23-03.jpg",
+      "date": "2025-03-23",
+      "year": 2025,
+      "month": "2025-03",
+      "sequence": 3,
+      "preview": "photos/2025-03-23-03.jpg",
+      "thumbnail": "gallery/2025-03-23-03.976a023915830e98.thumb.webp",
+      "width": 1803,
+      "height": 1202,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "105 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/400 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/9"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-03-23 14:20:55"
+        }
+      ],
+      "description": "",
+      "collection": "2025-02-03"
+    },
+    {
+      "id": "2025-03-23-04",
+      "filename": "2025-03-23-04.jpg",
+      "date": "2025-03-23",
+      "year": 2025,
+      "month": "2025-03",
+      "sequence": 4,
+      "preview": "photos/2025-03-23-04.jpg",
+      "thumbnail": "gallery/2025-03-23-04.3be12557fa4d6efb.thumb.webp",
+      "width": 1681,
+      "height": 1121,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "105 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/500 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/5.6"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-03-23 15:22:33"
+        }
+      ],
+      "description": "",
+      "collection": "2025-02-03"
+    },
+    {
+      "id": "2025-03-23-05",
+      "filename": "2025-03-23-05.jpg",
+      "date": "2025-03-23",
+      "year": 2025,
+      "month": "2025-03",
+      "sequence": 5,
+      "preview": "photos/2025-03-23-05.jpg",
+      "thumbnail": "gallery/2025-03-23-05.d1d1030b7555a01f.thumb.webp",
+      "width": 2311,
+      "height": 1541,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "105 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/500 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/5"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-03-23 15:27:15"
+        }
+      ],
+      "description": "",
+      "collection": "2025-02-03"
+    },
+    {
+      "id": "2025-03-23-06",
+      "filename": "2025-03-23-06.jpg",
+      "date": "2025-03-23",
+      "year": 2025,
+      "month": "2025-03",
+      "sequence": 6,
+      "preview": "photos/2025-03-23-06.jpg",
+      "thumbnail": "gallery/2025-03-23-06.524a4795e8adfce4.thumb.webp",
+      "width": 2063,
+      "height": 1375,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "105 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/400 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/10"
+        },
+        {
+          "label": "ISO",
+          "value": "640"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-03-23 15:57:50"
+        }
+      ],
+      "description": "",
+      "collection": "2025-02-03"
+    },
+    {
+      "id": "2025-03-23-07",
+      "filename": "2025-03-23-07.jpg",
+      "date": "2025-03-23",
+      "year": 2025,
+      "month": "2025-03",
+      "sequence": 7,
+      "preview": "photos/2025-03-23-07.jpg",
+      "thumbnail": "gallery/2025-03-23-07.a1e13ebefc8f67c9.thumb.webp",
+      "width": 2024,
+      "height": 1349,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "105 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/400 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/10"
+        },
+        {
+          "label": "ISO",
+          "value": "640"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-03-23 15:59:40"
+        }
+      ],
+      "description": "",
+      "collection": "2025-02-03"
+    },
+    {
+      "id": "2025-04-11-01",
+      "filename": "2025-04-11-01.jpg",
+      "date": "2025-04-11",
+      "year": 2025,
+      "month": "2025-04",
+      "sequence": 1,
+      "preview": "photos/2025-04-11-01.jpg",
+      "thumbnail": "gallery/2025-04-11-01.3216996c1528d062.thumb.webp",
+      "width": 5088,
+      "height": 3392,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "105 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/100 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "500"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-04-06 11:53:44"
+        }
+      ],
+      "description": "",
+      "collection": "2025-04-07"
+    },
+    {
+      "id": "2025-04-11-02",
+      "filename": "2025-04-11-02.jpg",
+      "date": "2025-04-11",
+      "year": 2025,
+      "month": "2025-04",
+      "sequence": 2,
+      "preview": "photos/2025-04-11-02.jpg",
+      "thumbnail": "gallery/2025-04-11-02.d60624eb87b354f2.thumb.webp",
+      "width": 11656,
+      "height": 8742,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Hasselblad X2D 100C"
+        },
+        {
+          "label": "镜头",
+          "value": "XCD 55V"
+        },
+        {
+          "label": "焦距",
+          "value": "55 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/50 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "400"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-04-06 12:14:07"
+        }
+      ],
+      "description": "",
+      "collection": "2025-04-07"
+    },
+    {
+      "id": "2025-04-11-03",
+      "filename": "2025-04-11-03.jpg",
+      "date": "2025-04-11",
+      "year": 2025,
+      "month": "2025-04",
+      "sequence": 3,
+      "preview": "photos/2025-04-11-03.jpg",
+      "thumbnail": "gallery/2025-04-11-03.a711410c45281cb8.thumb.webp",
+      "width": 8256,
+      "height": 5504,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 50mm f/1.8 S"
+        },
+        {
+          "label": "焦距",
+          "value": "50 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/1000 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/1.8"
+        },
+        {
+          "label": "ISO",
+          "value": "64"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-04-06 12:47:02 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-04-07"
+    },
+    {
+      "id": "2025-04-11-04",
+      "filename": "2025-04-11-04.jpg",
+      "date": "2025-04-11",
+      "year": 2025,
+      "month": "2025-04",
+      "sequence": 4,
+      "preview": "photos/2025-04-11-04.jpg",
+      "thumbnail": "gallery/2025-04-11-04.fa65b1af3507b249.thumb.webp",
+      "width": 6146,
+      "height": 4097,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 50mm f/1.8 S"
+        },
+        {
+          "label": "焦距",
+          "value": "50 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/25 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/16"
+        },
+        {
+          "label": "ISO",
+          "value": "64"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-04-06 15:51:03 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-04-07"
+    },
+    {
+      "id": "2025-04-11-05",
+      "filename": "2025-04-11-05.jpg",
+      "date": "2025-04-11",
+      "year": 2025,
+      "month": "2025-04",
+      "sequence": 5,
+      "preview": "photos/2025-04-11-05.jpg",
+      "thumbnail": "gallery/2025-04-11-05.a256817af13099ae.thumb.webp",
+      "width": 4415,
+      "height": 2943,
+      "exif": [
+        {
+          "label": "拍摄时间",
+          "value": "2025-04-11 20:13:39"
+        }
+      ],
+      "description": "",
+      "collection": "2025-04-07"
+    },
+    {
+      "id": "2025-04-11-06",
+      "filename": "2025-04-11-06.jpg",
+      "date": "2025-04-11",
+      "year": 2025,
+      "month": "2025-04",
+      "sequence": 6,
+      "preview": "photos/2025-04-11-06.jpg",
+      "thumbnail": "gallery/2025-04-11-06.a0ab173a4439a199.thumb.webp",
+      "width": 10024,
+      "height": 7518,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Hasselblad X2D 100C"
+        },
+        {
+          "label": "镜头",
+          "value": "XCD 55V"
+        },
+        {
+          "label": "焦距",
+          "value": "55 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/125 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/2.5"
+        },
+        {
+          "label": "ISO",
+          "value": "64"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-04-11 20:56:45"
+        }
+      ],
+      "description": "",
+      "collection": "2025-04-07"
+    },
+    {
+      "id": "2025-04-11-07",
+      "filename": "2025-04-11-07.jpg",
+      "date": "2025-04-11",
+      "year": 2025,
+      "month": "2025-04",
+      "sequence": 7,
+      "preview": "photos/2025-04-11-07.jpg",
+      "thumbnail": "gallery/2025-04-11-07.2a5941b84bea9d3a.thumb.webp",
+      "width": 9305,
+      "height": 6979,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Hasselblad X2D 100C"
+        },
+        {
+          "label": "镜头",
+          "value": "XCD 55V"
+        },
+        {
+          "label": "焦距",
+          "value": "55 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/125 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/2.5"
+        },
+        {
+          "label": "ISO",
+          "value": "400"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-04-11 21:01:48"
+        }
+      ],
+      "description": "",
+      "collection": "2025-04-07"
+    },
+    {
+      "id": "2025-04-25-01",
+      "filename": "2025-04-25-01.jpg",
+      "date": "2025-04-25",
+      "year": 2025,
+      "month": "2025-04",
+      "sequence": 1,
+      "preview": "photos/2025-04-25-01.jpg",
+      "thumbnail": "gallery/2025-04-25-01.e16c45cf5f8a956f.thumb.webp",
+      "width": 3328,
+      "height": 4992,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "105 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/100 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-04-25 14:56:46"
+        }
+      ],
+      "description": "",
+      "collection": "2025-04-07"
+    },
+    {
+      "id": "2025-04-25-02",
+      "filename": "2025-04-25-02.jpg",
+      "date": "2025-04-25",
+      "year": 2025,
+      "month": "2025-04",
+      "sequence": 2,
+      "preview": "photos/2025-04-25-02.jpg",
+      "thumbnail": "gallery/2025-04-25-02.8a18554a985411e3.thumb.webp",
+      "width": 2413,
+      "height": 1609,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "SONY ILCE-7CM2"
+        },
+        {
+          "label": "镜头",
+          "value": "FE 24-70mm F4 ZA OSS"
+        },
+        {
+          "label": "焦距",
+          "value": "70 mm"
+        },
+        {
+          "label": "快门",
+          "value": "25 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/22"
+        },
+        {
+          "label": "ISO",
+          "value": "50"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-04-25 19:10:59 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-04-07"
+    },
+    {
+      "id": "2025-07-05-01",
+      "filename": "2025-07-05-01.jpg",
+      "date": "2025-07-05",
+      "year": 2025,
+      "month": "2025-07",
+      "sequence": 1,
+      "preview": "photos/2025-07-05-01.jpg",
+      "thumbnail": "gallery/2025-07-05-01.62423232f7fb7985.thumb.webp",
+      "width": 7227,
+      "height": 4145,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "DJI FC8482"
+        },
+        {
+          "label": "镜头",
+          "value": "24.0 mm f/1.7"
+        },
+        {
+          "label": "焦距",
+          "value": "6.7 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/15 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/1.7"
+        },
+        {
+          "label": "ISO",
+          "value": "150"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-07-05 04:28:34"
+        }
+      ],
+      "description": "",
+      "collection": "2025-04-07"
+    },
+    {
+      "id": "2025-07-05-02",
+      "filename": "2025-07-05-02.jpg",
+      "date": "2025-07-05",
+      "year": 2025,
+      "month": "2025-07",
+      "sequence": 2,
+      "preview": "photos/2025-07-05-02.jpg",
+      "thumbnail": "gallery/2025-07-05-02.1caf44e82ef8e1e6.thumb.webp",
+      "width": 7491,
+      "height": 4214,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "DJI FC8482"
+        },
+        {
+          "label": "镜头",
+          "value": "24.0 mm f/1.7"
+        },
+        {
+          "label": "焦距",
+          "value": "6.7 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/20 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/1.7"
+        },
+        {
+          "label": "ISO",
+          "value": "120"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-07-05 04:35:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-04-07"
+    },
+    {
+      "id": "2025-07-21-01",
+      "filename": "2025-07-21-01.jpg",
+      "date": "2025-07-21",
+      "year": 2025,
+      "month": "2025-07",
+      "sequence": 1,
+      "preview": "photos/2025-07-21-01.jpg",
+      "thumbnail": "gallery/2025-07-21-01.d01deaeadfc8692f.thumb.webp",
+      "width": 7008,
+      "height": 4672,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "SONY ILCE-7CM2"
+        },
+        {
+          "label": "镜头",
+          "value": "FE 24-105mm F4 G OSS"
+        },
+        {
+          "label": "焦距",
+          "value": "24 mm"
+        },
+        {
+          "label": "快门",
+          "value": "13 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "1600"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-07-20 02:09:11 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-04-07"
+    },
+    {
+      "id": "2025-07-25-01",
+      "filename": "2025-07-25-01.jpg",
+      "date": "2025-07-25",
+      "year": 2025,
+      "month": "2025-07",
+      "sequence": 1,
+      "preview": "photos/2025-07-25-01.jpg",
+      "thumbnail": "gallery/2025-07-25-01.8cf9f97eead6de69.thumb.webp",
+      "width": 8056,
+      "height": 4528,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "DJI FC4382"
+        },
+        {
+          "label": "镜头",
+          "value": "70.0 mm f/2.8"
+        },
+        {
+          "label": "焦距",
+          "value": "19.4 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/50 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/2.8"
+        },
+        {
+          "label": "ISO",
+          "value": "800"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-07-25 19:06:26"
+        }
+      ],
+      "description": "",
+      "collection": "2025-04-07"
+    },
+    {
+      "id": "2025-08-07-01",
+      "filename": "2025-08-07-01.jpg",
+      "date": "2025-08-07",
+      "year": 2025,
+      "month": "2025-08",
+      "sequence": 1,
+      "preview": "photos/2025-08-07-01.jpg",
+      "thumbnail": "gallery/2025-08-07-01.f23ac8aa986a80d0.thumb.webp",
+      "width": 4651,
+      "height": 3096,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 24-200mm f/4-6.3 VR"
+        },
+        {
+          "label": "焦距",
+          "value": "200 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/500 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/6.3"
+        },
+        {
+          "label": "ISO",
+          "value": "125"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-08-02 09:23:39 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-08-12"
+    },
+    {
+      "id": "2025-08-07-02",
+      "filename": "2025-08-07-02.jpg",
+      "date": "2025-08-07",
+      "year": 2025,
+      "month": "2025-08",
+      "sequence": 2,
+      "preview": "photos/2025-08-07-02.jpg",
+      "thumbnail": "gallery/2025-08-07-02.f11cdd3a01d382d5.thumb.webp",
+      "width": 4010,
+      "height": 2669,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 24-200mm f/4-6.3 VR"
+        },
+        {
+          "label": "焦距",
+          "value": "200 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/500 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/6.3"
+        },
+        {
+          "label": "ISO",
+          "value": "125"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-08-02 09:29:18 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-08-12"
+    },
+    {
+      "id": "2025-08-07-03",
+      "filename": "2025-08-07-03.jpg",
+      "date": "2025-08-07",
+      "year": 2025,
+      "month": "2025-08",
+      "sequence": 3,
+      "preview": "photos/2025-08-07-03.jpg",
+      "thumbnail": "gallery/2025-08-07-03.99df695098a5ecd4.thumb.webp",
+      "width": 4492,
+      "height": 2990,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 24-200mm f/4-6.3 VR"
+        },
+        {
+          "label": "焦距",
+          "value": "200 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/640 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/6.3"
+        },
+        {
+          "label": "ISO",
+          "value": "125"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-08-02 09:45:57 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-08-12"
+    },
+    {
+      "id": "2025-08-07-04",
+      "filename": "2025-08-07-04.jpg",
+      "date": "2025-08-07",
+      "year": 2025,
+      "month": "2025-08",
+      "sequence": 4,
+      "preview": "photos/2025-08-07-04.jpg",
+      "thumbnail": "gallery/2025-08-07-04.861f0bb9fdb347b4.thumb.webp",
+      "width": 3603,
+      "height": 2398,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 24-200mm f/4-6.3 VR"
+        },
+        {
+          "label": "焦距",
+          "value": "200 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/500 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/6.3"
+        },
+        {
+          "label": "ISO",
+          "value": "125"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-08-02 10:02:33 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-08-12"
+    },
+    {
+      "id": "2025-08-07-05",
+      "filename": "2025-08-07-05.jpg",
+      "date": "2025-08-07",
+      "year": 2025,
+      "month": "2025-08",
+      "sequence": 5,
+      "preview": "photos/2025-08-07-05.jpg",
+      "thumbnail": "gallery/2025-08-07-05.9c78a05997024459.thumb.webp",
+      "width": 4487,
+      "height": 2987,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 24-200mm f/4-6.3 VR"
+        },
+        {
+          "label": "焦距",
+          "value": "140 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/640 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/6.3"
+        },
+        {
+          "label": "ISO",
+          "value": "160"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-08-02 10:34:28 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-08-12"
+    },
+    {
+      "id": "2025-08-07-06",
+      "filename": "2025-08-07-06.jpg",
+      "date": "2025-08-07",
+      "year": 2025,
+      "month": "2025-08",
+      "sequence": 6,
+      "preview": "photos/2025-08-07-06.jpg",
+      "thumbnail": "gallery/2025-08-07-06.a023c7d54277c963.thumb.webp",
+      "width": 4248,
+      "height": 2828,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 24-200mm f/4-6.3 VR"
+        },
+        {
+          "label": "焦距",
+          "value": "200 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/500 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/6.3"
+        },
+        {
+          "label": "ISO",
+          "value": "160"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-08-02 11:22:29 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-08-12"
+    },
+    {
+      "id": "2025-08-07-07",
+      "filename": "2025-08-07-07.jpg",
+      "date": "2025-08-07",
+      "year": 2025,
+      "month": "2025-08",
+      "sequence": 7,
+      "preview": "photos/2025-08-07-07.jpg",
+      "thumbnail": "gallery/2025-08-07-07.265e182c836e63d9.thumb.webp",
+      "width": 3185,
+      "height": 2120,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 24-200mm f/4-6.3 VR"
+        },
+        {
+          "label": "焦距",
+          "value": "200 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/640 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/6.3"
+        },
+        {
+          "label": "ISO",
+          "value": "160"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-08-02 11:29:57 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-08-12"
+    },
+    {
+      "id": "2025-08-07-08",
+      "filename": "2025-08-07-08.jpg",
+      "date": "2025-08-07",
+      "year": 2025,
+      "month": "2025-08",
+      "sequence": 8,
+      "preview": "photos/2025-08-07-08.jpg",
+      "thumbnail": "gallery/2025-08-07-08.dcc1176d43399a31.thumb.webp",
+      "width": 4584,
+      "height": 3051,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 24-200mm f/4-6.3 VR"
+        },
+        {
+          "label": "焦距",
+          "value": "200 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/640 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/6.3"
+        },
+        {
+          "label": "ISO",
+          "value": "160"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-08-02 11:58:30 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-08-12"
+    },
+    {
+      "id": "2025-08-07-09",
+      "filename": "2025-08-07-09.jpg",
+      "date": "2025-08-07",
+      "year": 2025,
+      "month": "2025-08",
+      "sequence": 9,
+      "preview": "photos/2025-08-07-09.jpg",
+      "thumbnail": "gallery/2025-08-07-09.fb9e966b79e2ed03.thumb.webp",
+      "width": 4833,
+      "height": 3217,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "NIKON CORPORATION NIKON Z 7_2"
+        },
+        {
+          "label": "镜头",
+          "value": "NIKKOR Z 24-200mm f/4-6.3 VR"
+        },
+        {
+          "label": "焦距",
+          "value": "200 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/640 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/6.3"
+        },
+        {
+          "label": "ISO",
+          "value": "160"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-08-02 12:03:33 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-08-12"
+    },
+    {
+      "id": "2025-08-07-10",
+      "filename": "2025-08-07-10.jpg",
+      "date": "2025-08-07",
+      "year": 2025,
+      "month": "2025-08",
+      "sequence": 10,
+      "preview": "photos/2025-08-07-10.jpg",
+      "thumbnail": "gallery/2025-08-07-10.708d4677be21f6be.thumb.webp",
+      "width": 5108,
+      "height": 2870,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Hasselblad L2D-20c"
+        },
+        {
+          "label": "镜头",
+          "value": "24.0 mm f/2.8"
+        },
+        {
+          "label": "焦距",
+          "value": "12.3 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/3200 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/2.8"
+        },
+        {
+          "label": "ISO",
+          "value": "180"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-08-08 08:43:55"
+        }
+      ],
+      "description": "",
+      "collection": "2025-08-12"
+    },
+    {
+      "id": "2025-08-07-11",
+      "filename": "2025-08-07-11.jpg",
+      "date": "2025-08-07",
+      "year": 2025,
+      "month": "2025-08",
+      "sequence": 11,
+      "preview": "photos/2025-08-07-11.jpg",
+      "thumbnail": "gallery/2025-08-07-11.74cd2dae55d2c634.thumb.webp",
+      "width": 7340,
+      "height": 4126,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "DJI FC4382"
+        },
+        {
+          "label": "镜头",
+          "value": "70.0 mm f/2.8"
+        },
+        {
+          "label": "焦距",
+          "value": "19.4 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/1250 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/2.8"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-08-08 08:44:10"
+        }
+      ],
+      "description": "",
+      "collection": "2025-08-12"
+    },
+    {
+      "id": "2025-08-07-12",
+      "filename": "2025-08-07-12.jpg",
+      "date": "2025-08-07",
+      "year": 2025,
+      "month": "2025-08",
+      "sequence": 12,
+      "preview": "photos/2025-08-07-12.jpg",
+      "thumbnail": "gallery/2025-08-07-12.471cc223691d9f54.thumb.webp",
+      "width": 5616,
+      "height": 3159,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "80 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/250 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/11"
+        },
+        {
+          "label": "ISO",
+          "value": "160"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-08-08 11:52:24"
+        }
+      ],
+      "description": "",
+      "collection": "2025-08-12"
+    },
+    {
+      "id": "2025-08-07-13",
+      "filename": "2025-08-07-13.jpg",
+      "date": "2025-08-07",
+      "year": 2025,
+      "month": "2025-08",
+      "sequence": 13,
+      "preview": "photos/2025-08-07-13.jpg",
+      "thumbnail": "gallery/2025-08-07-13.a692918e80bbf98f.thumb.webp",
+      "width": 7818,
+      "height": 4398,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "DJI FC4382"
+        },
+        {
+          "label": "镜头",
+          "value": "70.0 mm f/2.8"
+        },
+        {
+          "label": "焦距",
+          "value": "19.4 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/1600 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/2.8"
+        },
+        {
+          "label": "ISO",
+          "value": "140"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-08-08 12:09:14"
+        }
+      ],
+      "description": "",
+      "collection": "2025-08-12"
+    },
+    {
+      "id": "2025-08-07-14",
+      "filename": "2025-08-07-14.jpg",
+      "date": "2025-08-07",
+      "year": 2025,
+      "month": "2025-08",
+      "sequence": 14,
+      "preview": "photos/2025-08-07-14.jpg",
+      "thumbnail": "gallery/2025-08-07-14.03d91cd374f7543f.thumb.webp",
+      "width": 4941,
+      "height": 2776,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Hasselblad L2D-20c"
+        },
+        {
+          "label": "镜头",
+          "value": "24.0 mm f/2.8"
+        },
+        {
+          "label": "焦距",
+          "value": "12.3 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/2000 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/2.8"
+        },
+        {
+          "label": "ISO",
+          "value": "130"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-08-08 12:15:38"
+        }
+      ],
+      "description": "",
+      "collection": "2025-08-12"
+    },
+    {
+      "id": "2025-08-07-15",
+      "filename": "2025-08-07-15.jpg",
+      "date": "2025-08-07",
+      "year": 2025,
+      "month": "2025-08",
+      "sequence": 15,
+      "preview": "photos/2025-08-07-15.jpg",
+      "thumbnail": "gallery/2025-08-07-15.e89dace634815a85.thumb.webp",
+      "width": 5616,
+      "height": 3159,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "镜头",
+          "value": "EF24-105mm f/4L IS USM"
+        },
+        {
+          "label": "焦距",
+          "value": "60 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/10 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/22"
+        },
+        {
+          "label": "ISO",
+          "value": "50"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-08-08 13:04:10"
+        }
+      ],
+      "description": "",
+      "collection": "2025-08-12"
+    },
+    {
+      "id": "2025-08-12-01",
+      "filename": "2025-08-12-01.jpg",
+      "date": "2025-08-12",
+      "year": 2025,
+      "month": "2025-08",
+      "sequence": 1,
+      "preview": "photos/2025-08-12-01.jpg",
+      "thumbnail": "gallery/2025-08-12-01.8383a8a6568fac70.thumb.webp",
+      "width": 7748,
+      "height": 4355,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "DJI mavic 3 pro"
+        },
+        {
+          "label": "焦距",
+          "value": "19.4 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/400 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/2.8"
+        },
+        {
+          "label": "ISO",
+          "value": "120"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-08-12 19:26:01"
+        }
+      ],
+      "description": "",
+      "collection": "2025-08-12"
+    },
+    {
+      "id": "2025-08-12-02",
+      "filename": "2025-08-12-02.jpg",
+      "date": "2025-08-12",
+      "year": 2025,
+      "month": "2025-08",
+      "sequence": 2,
+      "preview": "photos/2025-08-12-02.jpg",
+      "thumbnail": "gallery/2025-08-12-02.95add751dc63dbfd.thumb.webp",
+      "width": 5616,
+      "height": 3744,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "焦距",
+          "value": "97 mm"
+        },
+        {
+          "label": "快门",
+          "value": "20 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/22"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-08-12 20:26:01"
+        }
+      ],
+      "description": "",
+      "collection": "2025-08-12"
+    },
+    {
+      "id": "2025-08-25-01",
+      "filename": "2025-08-25-01.jpg",
+      "date": "2025-08-25",
+      "year": 2025,
+      "month": "2025-08",
+      "sequence": 1,
+      "preview": "photos/2025-08-25-01.jpg",
+      "thumbnail": "gallery/2025-08-25-01.1ad1e538eaf94ab9.thumb.webp",
+      "width": 5282,
+      "height": 2969,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "DJI Mavic 3 Pro"
+        },
+        {
+          "label": "焦距",
+          "value": "19.4 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/10 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/2.8"
+        },
+        {
+          "label": "ISO",
+          "value": "1180"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-08-25 19:06:10"
+        }
+      ],
+      "description": "",
+      "collection": "2025-08-12"
+    },
+    {
+      "id": "2025-10-17-01",
+      "filename": "2025-10-17-01.jpg",
+      "date": "2025-10-17",
+      "year": 2025,
+      "month": "2025-10",
+      "sequence": 1,
+      "preview": "photos/2025-10-17-01.jpg",
+      "thumbnail": "gallery/2025-10-17-01.42e60c482f936ff7.thumb.webp",
+      "width": 4608,
+      "height": 3072,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "SONY ILCE-7CM2"
+        },
+        {
+          "label": "镜头",
+          "value": "Viltrox 16mm F1.8 FE"
+        },
+        {
+          "label": "焦距",
+          "value": "16 mm"
+        },
+        {
+          "label": "快门",
+          "value": "14 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/10"
+        },
+        {
+          "label": "ISO",
+          "value": "50"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-10-16 20:43:41 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2025-08-12"
+    },
+    {
+      "id": "2026-02-21-01",
+      "filename": "2026-02-21-01.jpg",
+      "date": "2026-02-21",
+      "year": 2026,
+      "month": "2026-02",
+      "sequence": 1,
+      "preview": "photos/2026-02-21-01.jpg",
+      "thumbnail": "gallery/2026-02-21-01.0abb48c4b9aa77d4.thumb.webp",
+      "width": 5616,
+      "height": 3744,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "焦距",
+          "value": "80 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/1250 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2025-08-13 14:54:24"
+        }
+      ],
+      "description": "",
+      "collection": "2026"
+    },
+    {
+      "id": "2026-02-21-02",
+      "filename": "2026-02-21-02.jpg",
+      "date": "2026-02-21",
+      "year": 2026,
+      "month": "2026-02",
+      "sequence": 2,
+      "preview": "photos/2026-02-21-02.jpg",
+      "thumbnail": "gallery/2026-02-21-02.39b03ecd2831685c.thumb.webp",
+      "width": 5616,
+      "height": 3744,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "焦距",
+          "value": "40 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/400 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/7.1"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2026-02-21 16:08:12"
+        }
+      ],
+      "description": "",
+      "collection": "2026"
+    },
+    {
+      "id": "2026-02-21-03",
+      "filename": "2026-02-21-03.jpg",
+      "date": "2026-02-21",
+      "year": 2026,
+      "month": "2026-02",
+      "sequence": 3,
+      "preview": "photos/2026-02-21-03.jpg",
+      "thumbnail": "gallery/2026-02-21-03.07733726fc36b31d.thumb.webp",
+      "width": 5616,
+      "height": 3744,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "焦距",
+          "value": "24 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/1000 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/7.1"
+        },
+        {
+          "label": "ISO",
+          "value": "400"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2026-02-21 16:51:45"
+        }
+      ],
+      "description": "",
+      "collection": "2026"
+    },
+    {
+      "id": "2026-02-21-04",
+      "filename": "2026-02-21-04.jpg",
+      "date": "2026-02-21",
+      "year": 2026,
+      "month": "2026-02",
+      "sequence": 4,
+      "preview": "photos/2026-02-21-04.jpg",
+      "thumbnail": "gallery/2026-02-21-04.f240d3b13cfe74f0.thumb.webp",
+      "width": 2970,
+      "height": 4455,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "焦距",
+          "value": "85 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/200 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "400"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2026-02-21 17:35:46"
+        }
+      ],
+      "description": "",
+      "collection": "2026"
+    },
+    {
+      "id": "2026-02-21-05",
+      "filename": "2026-02-21-05.jpg",
+      "date": "2026-02-21",
+      "year": 2026,
+      "month": "2026-02",
+      "sequence": 5,
+      "preview": "photos/2026-02-21-05.jpg",
+      "thumbnail": "gallery/2026-02-21-05.5181106c9995f46b.thumb.webp",
+      "width": 7008,
+      "height": 4338,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "SONY ILCE-7CM2"
+        },
+        {
+          "label": "镜头",
+          "value": "FE 24-105mm F4 G OSS"
+        },
+        {
+          "label": "焦距",
+          "value": "44 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/80 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/7.1"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2026-02-21 18:27:07 +08:00"
+        }
+      ],
+      "description": "",
+      "collection": "2026"
+    },
+    {
+      "id": "2026-02-21-06",
+      "filename": "2026-02-21-06.jpg",
+      "date": "2026-02-21",
+      "year": 2026,
+      "month": "2026-02",
+      "sequence": 6,
+      "preview": "photos/2026-02-21-06.jpg",
+      "thumbnail": "gallery/2026-02-21-06.319fc9c231ce6937.thumb.webp",
+      "width": 5616,
+      "height": 3744,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "焦距",
+          "value": "24 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/100 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "640"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2026-02-21 18:52:18"
+        }
+      ],
+      "description": "",
+      "collection": "2026"
+    },
+    {
+      "id": "2026-02-21-07",
+      "filename": "2026-02-21-07.jpg",
+      "date": "2026-02-21",
+      "year": 2026,
+      "month": "2026-02",
+      "sequence": 7,
+      "preview": "photos/2026-02-21-07.jpg",
+      "thumbnail": "gallery/2026-02-21-07.b94342f00185b165.thumb.webp",
+      "width": 5616,
+      "height": 3744,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "焦距",
+          "value": "70 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/100 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "4000"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2026-02-21 19:03:08"
+        }
+      ],
+      "description": "",
+      "collection": "2026"
+    },
+    {
+      "id": "2026-02-21-08",
+      "filename": "2026-02-21-08.jpg",
+      "date": "2026-02-21",
+      "year": 2026,
+      "month": "2026-02",
+      "sequence": 8,
+      "preview": "photos/2026-02-21-08.jpg",
+      "thumbnail": "gallery/2026-02-21-08.6bc16c987cfe7eb6.thumb.webp",
+      "width": 5616,
+      "height": 3744,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "焦距",
+          "value": "28 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/160 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/7.1"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2026-02-22 09:30:20"
+        }
+      ],
+      "description": "",
+      "collection": "2026"
+    },
+    {
+      "id": "2026-04-04-01",
+      "filename": "2026-04-04-01.jpg",
+      "date": "2026-04-04",
+      "year": 2026,
+      "month": "2026-04",
+      "sequence": 1,
+      "preview": "photos/2026-04-04-01.jpg",
+      "thumbnail": "gallery/2026-04-04-01.3bd11617b8b74b3c.thumb.webp",
+      "width": 4948,
+      "height": 3299,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "焦距",
+          "value": "24 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/1250 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2026-04-04 14:42:27"
+        }
+      ],
+      "description": "",
+      "collection": "2026"
+    },
+    {
+      "id": "2026-06-06-01",
+      "filename": "2026-06-06-01.jpg",
+      "date": "2026-06-06",
+      "year": 2026,
+      "month": "2026-06",
+      "sequence": 1,
+      "preview": "photos/2026-06-06-01.jpg",
+      "thumbnail": "gallery/2026-06-06-01.2c2ca7175d14f603.thumb.webp",
+      "width": 5220,
+      "height": 3480,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "焦距",
+          "value": "50 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/800 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2026-06-06 12:43:41"
+        }
+      ],
+      "description": "",
+      "collection": "2026"
+    },
+    {
+      "id": "2026-06-06-02",
+      "filename": "2026-06-06-02.jpg",
+      "date": "2026-06-06",
+      "year": 2026,
+      "month": "2026-06",
+      "sequence": 2,
+      "preview": "photos/2026-06-06-02.jpg",
+      "thumbnail": "gallery/2026-06-06-02.4be92f261b437daa.thumb.webp",
+      "width": 5616,
+      "height": 3744,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Canon EOS 5D Mark II"
+        },
+        {
+          "label": "焦距",
+          "value": "24 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/60 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/4"
+        },
+        {
+          "label": "ISO",
+          "value": "100"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2026-06-06 13:13:01"
+        }
+      ],
+      "description": "",
+      "collection": "2026"
+    },
+    {
+      "id": "2026-07-14-01",
+      "filename": "2026-07-14-01.jpg",
+      "date": "2026-07-14",
+      "year": 2026,
+      "month": "2026-07",
+      "sequence": 1,
+      "preview": "photos/2026-07-14-01.jpg",
+      "thumbnail": "gallery/2026-07-14-01.e9dae1fd29c51c99.thumb.webp",
+      "width": 6318,
+      "height": 3347,
+      "exif": [
+        {
+          "label": "相机",
+          "value": "Apple iPhone 14 Pro"
+        },
+        {
+          "label": "镜头",
+          "value": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
+        },
+        {
+          "label": "焦距",
+          "value": "6.9 mm"
+        },
+        {
+          "label": "快门",
+          "value": "1/208 s"
+        },
+        {
+          "label": "光圈",
+          "value": "ƒ/1.7799999713880652"
+        },
+        {
+          "label": "ISO",
+          "value": "80"
+        },
+        {
+          "label": "拍摄时间",
+          "value": "2026-07-14 19:09:48"
+        }
+      ],
+      "description": "",
+      "collection": "2026"
+    }
+  ]
+}
