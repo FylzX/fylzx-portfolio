@@ -2,6 +2,7 @@
 
 我的个人摄影作品展，灵感来自[LBEILC/RhineLabUI](https://github.com/LBEILC/RhineLabUI)
 
+点击预览:https://fylzx-portfolio.pages.dev/
 ## 许可与版权
 
 本项目基于 [LBEILC/RhineLabUI](https://github.com/LBEILC/RhineLabUI)修改
